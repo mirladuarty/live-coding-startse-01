@@ -41,8 +41,25 @@
     <form action="">
         <section>
             <h1>Formulario de interesses</h1>
-            <label for="name">Digite seu nome</label>
-            <input type="text" id="name">
+
+            <div class="input-wrapper">
+                <label for="fname">Digite seu nome</label>
+                <input type="text" id="fname" name="fname" size=40 maxlength=40 placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="user-comment">Nos conte um pouquinho sobre você</label>
+                <textarea name="user-comment" cols="30" rows="4"></textarea>
+            </div>
+
+            <div class="input-wrapper">
+                <input type="radio" name="exercise" value="1" id="yes">
+                <label for="yes">Sim</label>
+
+                <input type="radio" name="exercise" value="2" id="no">
+                <label for="no">Não</label>
+            </div>
+
         </section>
     </form>
 </body>
