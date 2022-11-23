@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, input {
+    font-size: 10px;
+}
+
+:root {
+    --clr-1: #f8b195;
+    --clr-2: #f67280;
+    --clr-3: #c06c84;
+    --clr-4: #355c7d;
+    --clr-5: #6c5b7b;
+}
+
+body {
+    background: var(--clr-2);
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-4);
+}
+
+ul {
+    list-style-type: none;
+}
